@@ -7,7 +7,7 @@ Tentarei ser o mais organizado possível.
 
 Os algoritmos estão divididos entre cadeiras que cursei.
 
-Pra ser sincero não tenho certeza do que alguns destes fazem. Outros têm o nome bem descritivo e em outros fiz um péssimo trabalho em organizar.
+Pra ser sincero não tenho certeza do que alguns destes fazem. Uns são bem descritivos e outros fiz um péssimo trabalho em organizar.
 
 Sinto muito, consertarei quando tiver mais tempo, prometo.
 
