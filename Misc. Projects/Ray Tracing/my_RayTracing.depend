@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1472824980 source:/home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/general.cpp
+	"general.h"
+
+1472831377 source:/home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/main.cpp
+	"general.h"
+	"shapes.h"
+
+1472820651 /home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/general.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<cmath>
+	<limits>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"shapes.h"
+	"Vect.h"
+	"Ray.h"
+	"Camera.h"
+	"Color.h"
+	"Light.h"
+	"Source.h"
+
+1472830090 /home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/shapes.h
+	<math.h>
+	"Vect.h"
+	"Color.h"
+	"Ray.h"
+
+1472830148 source:/home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/shapes.cpp
+	"shapes.h"
+
+1472812168 source:/home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Vect.cpp
+	"Vect.h"
+
+1472824809 /home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Vect.h
+	<math.h>
+
+1472824649 source:/home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Camera.cpp
+	"Camera.h"
+
+1472824654 /home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Camera.h
+	"Vect.h"
+
+1472824757 /home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Ray.h
+	"Vect.h"
+
+1472824766 source:/home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Ray.cpp
+	"Ray.h"
+
+1472824688 source:/home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Color.cpp
+	"Color.h"
+
+1472824688 /home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Color.h
+
+1472824728 source:/home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Light.cpp
+	"Light.h"
+
+1472824729 /home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Light.h
+	"Source.h"
+	"Vect.h"
+	"Color.h"
+
+1472824790 /home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Source.h
+	"Vect.h"
+	"Color.h"
+
+1472796395 source:/home/thalles_al/Dropbox/Current Semester/Entregar/CG/my_RayTracing/Source.cpp
+	"Source.h"
+

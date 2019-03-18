@@ -18,3 +18,5 @@ Em "polyInterp.py" temos alguns Métodos de Interpolação Polar:
 
 ## Misc. Projects
 Em "Paint for Web" a atividade era fazer uma ferramenta similar ao Paint (MS) utilizando Canvas.
+
+Em "Ray Tracing" a atividade, como o nome sugere, consistia de gerar uma cena com Ray Tracing em C/C++.
