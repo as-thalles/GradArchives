@@ -1,0 +1,103 @@
+<!--
+Version 3.0 of this /thing/
+Some stuff went wrong on the previous ones
+-->
+</!DOCTYPE html>
+<html dir="ltr">
+	<head>
+		<title> Atividade Canvas CG - ED2.5 (V: 3.0_Release)</title>
+		<meta charset="utf-8">
+	</head>
+	<body bgcolor="#ccccb3" onload="firstSetup()">
+		<center>
+			<table id="table_ActvSelection" border="2" bgcolor= "#b8b894">
+			 	<tr><!--Seleção de ferramenta e Dcanvas-->
+				 	<td>
+				 		<form>
+					 		<center>
+					 			<p><b>COMPUTAÇÃO GRÁFICA
+					 			<br>
+					 			HTML CANVAS</b></p>
+				 			</center>
+							<input type="radio" id="radioPaint" name="paintAction" value="draw" checked="checked" onchange="switchDraw()">
+					 		<label>Drawing Tools:
+								<select id="toolType_dTools" onchange="swapDTool()">
+									<option value="point" id="point">Point</option>
+									<option value="line" id="line">Line</option>
+									<option value="polygon" id="polygon">Polygon</option>
+									<option value="bezier" id="bezier">Bezier</option>
+									<option value="arc" id="arc">Arc</option>
+									<option value="curve" id="curve">Curve</option>
+								</select>
+							</label>
+							<br>
+							<input type="radio" id="radioManip" name="paintAction" value="manip" onchange="switchManip()">
+							<label>Manipulation Tools: 
+								<select id="toolType_manipTools" onchange="swapManTool()">
+									<option value="dndrop" id="dndrop">Drag and Drop</option>
+									<option value="rotate" id="rotate">Rotate</option>
+									<!--<option value="mirrorX" id="mirrorX">Mirror-X</option>
+									<option value="mirrorY" id="mirrorY">Mirror-Y</option>-->
+									<option value="resize" id="resize">Resize</option>
+								</select>
+							</label>
+						</form>
+					</td>
+					<th rowspan="5">
+						<canvas width="950" height="600" style="border:1px solid black;" value="canvasCG" id="canvasCG"> </canvas>
+					</th>
+				</tr>
+				<tr><!--Seleção de largura de linha-->
+					<td>
+						<center>
+						Line Width:
+						<label for="rangeVal"></label>
+						<em id="rangeValLabel" style="font-style: normal;"></em>
+						<br>
+						</center>
+						<input type="range" id="range_lineWidth" title="Line Width" name="range_lineWidth" 
+							min="1" max="10" value="1" style="width:97%" onchange="changeLineWidth(this.value)"
+							oninput="document.getElementById('rangeValLabel').innerHTML = this.value">
+	    				
+					</td>
+				</tr>
+				<tr><!--Canvas de color pick-->
+					<td>
+						<canvas id="myCanvas" width="276" height="276"></canvas>
+						<!--<br>
+						<canvas id="showColor" width="276" height="20" style="border:1px solid black;"></canvas>-->
+					</td>
+				</tr>
+				<!--
+				<tr>
+					<td>
+						Botão de jogar fora. 
+						<br>
+						Se der tempo coloca parada de colorir.
+					</td>
+				</tr>
+				-->
+				<tr><!--Assinatura-->
+					<td>
+						<p1>
+							- Thalles Alencar Silva
+							<br>
+							- 2012034847
+							<br>
+							- CG_2016.1
+						</p1>
+					</td>
+				</tr>
+		 	</table>
+	 	</center>
+	</body>
+	<script type="text/javascript" src="classes_Formas.js"></script>
+	<script type="text/javascript" src="globals_MainVariables.js"> </script>
+	<script type="text/javascript" src="style_ColorPicker_LineWidth.js"> </script>
+	<script type="text/javascript" src="functions_Drawing.js"></script>
+	<script type="text/javascript" src="functions_PickAlgorithms.js"></script>
+	<script type="text/javascript" src="functions_ManipAlgorithms.js"></script>
+	<script type="text/javascript" src="functions_ConvexHull.js"></script>
+
+	<script type="text/javascript" src="globals_DCanvasEvents.js"></script>
+</html>

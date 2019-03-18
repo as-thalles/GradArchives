@@ -1,0 +1,19 @@
+STYLES:
+Color: click the color palette to pick a color (I will eventually create an indicator to which color is selected).
+LineWidth: just move the bar sideways. 1-10 scale.
+
+DRAWING:
+Point: single click. You can move arround while clicking to set a final position.
+Line: click, hold, drag, unclick.
+Polygon: just a bunch of lines. Right click when you're done (it'll connect first and last points).
+Bezier: click and drag 3 times and watch the magic happen.
+Arc: click to set center, drag to set radius, click and drag to set how much of it is drawn (or right click to make a full circle).
+Curve: click and drag twice.
+
+MANIPULATION:*
+Drag and Drop: click, drag, drop (unclick).
+Rotate: click on figure to select and drag to set the rotation circle. Unclick to leave it there, click again to rotate the selected figure and unclick to finish action.
+Mirror: not yet implemented.
+Resize: click on figure and move right to make it bigger, left to make it smaller. 
+
+*Any pick regarding Bezier and Curves will only work if you select one of the two extremes of the curve (initial or final point)
