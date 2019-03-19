@@ -17,8 +17,11 @@ Em "polyInterp.py" temos alguns Métodos de Interpolação Polar:
 - Método dos Mínimos Quadrados.
 
 ## Misc. Projects
-Em "Paint for Web" a atividade era fazer uma ferramenta similar ao Paint (MS) utilizando Canvas.
-- HTML5, CSS, Javascript.
+"Detecção de Anomalias em Sons de Auscultação Pulmonar": como o nome sugere, avaliamos sons de auscultação pulmonar com o objetivo de detectar anomalias. Esta implementação foi referente à nota final da disciplina de Sistemas Inteligentes.
+- Python e WEKA.
 
-Em "Ray Tracing" a atividade, como o nome sugere, consistia de gerar uma cena com Ray Tracing.
+"Paint for Web": a atividade consistia de criar uma ferramenta similar ao Paint (MS) utilizando Canvas. Esta implementação foi referente à primeira avaliação da disciplina de Computação Gráfica.
+- HTML5, CSS e Javascript.
+
+"Ray Tracing": a atividade, como o nome sugere, consistia de gerar uma cena com Ray Tracing. Esta implementação foi referente à avaliação final da disciplina de Computação Gráfica.
 - C/C++
