@@ -31,3 +31,6 @@ Sinto muito. Organizarei esta pasta por inteiro quando tiver mais tempo, prometo
 
 "Ray Tracing": a atividade, como o nome sugere, consistia de gerar uma cena com Ray Tracing. Esta implementação foi referente à avaliação final da disciplina de Computação Gráfica.
 - C/C++
+
+# Considerações finais
+Alguns destes códigos estão uma bagunça e eu pretendo revisitar/organizar eles com o tempo. Mas estes são alguns dos que fiz durante a graduação e tê-los aqui me parece uma boa ideia. Todos funcionam e fazem o que foram feitos para fazer, só queria ter sido mais zeloso com documentação/organização.
